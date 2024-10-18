@@ -165,7 +165,7 @@ export function Admin() {
                     <p>{link.name}</p>
                     <div>
                         <button
-                            className="border border-dashed p-1 rounded bg-neutral-900"
+                            className="border-none p-1d"
                             onClick={() => handleDeleteLink(link.id)}
                         >
                             <FiTrash size={18} color="#FFF" />
