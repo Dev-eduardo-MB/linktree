@@ -1,6 +1,6 @@
 import { FormEvent, useState, useEffect } from 'react'
-import { Header } from "../../components/Header";
-import { Input } from "../../components/Input";
+import { Header } from "../../components/Header/index.tsx";
+import { Input } from "../../components/Input/index.tsx";
 
 import { FiTrash } from 'react-icons/fi'
 import { db } from '../../services/firebaseConnection'
