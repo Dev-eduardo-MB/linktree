@@ -17,9 +17,6 @@ export function Header() {
           <Link to="/">
             Home
           </Link>
-          <Link to="/admin">
-            Links
-          </Link>
         </div>
         <button onClick={handleLogout}>
           <BiLogOut size={28} color="#db2629" />
